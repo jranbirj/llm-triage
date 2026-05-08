@@ -1,4 +1,4 @@
-# triage-geometry
+# llm-triage
 
 A dual-layer approach to reducing dangerous undertriage errors in LLM-based clinical triage. This project investigates whether structured prompting strategies and hidden-state geometric analysis can detect and reduce undertriage failures in Llama 3 8B without any clinical fine-tuning.
 
@@ -17,7 +17,7 @@ The integration analysis tests whether a dual-layer system with geometric flaggi
 ## Repository Structure
 
 ```
-triage-geometry/
+llm-triage/
 ├── data/
 │   ├── esi_vignettes.json        # 150 gold-labeled ESI vignettes (ESI Handbook v4)
 │   └── esi_vignettes.csv         # Same dataset in CSV format
@@ -51,7 +51,7 @@ Create a [HuggingFace account](https://huggingface.co), generate a **Read** toke
 Upload the following to `/content/drive/My Drive/triage/` before running the Colab notebook:
 
 ```
-triage/
+llm-triage/
 ├── triage_inf_pars_ext.ipynb
 ├── triage_geometry.ipynb
 ├── prompt_templates.py
